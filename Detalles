@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Detalles - Brandon Richard González Gutierrez 5F</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f6f9; }
+    h1, h2 { color: #222; }
+    .detalle { background: #fff; padding: 15px; margin: 20px 0; border-radius: 10px; box-shadow: 0 0 8px rgba(0,0,0,0.1); }
+    img { max-width: 100%; border-radius: 6px; margin-top: 10px; }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { color: #555; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Detalles del Proyecto</h1>
+    <p><strong>Autor:</strong> Brandon Richard González Gutierrez - 5°F</p>
+  </header>
+
+  <div class="detalle">
+    <h2>Sección 1: Presentación</h2>
+    <p>Este proyecto muestra mi página web con información organizada y un diseño sencillo.</p>
+    <img src="images/presentacion.jpg" alt="Imagen de presentación">
+  </div>
+
+  <div class="detalle">
+    <h2>Sección 2: Galería</h2>
+    <p>Aquí incluyo algunas imágenes relacionadas con mi proyecto.</p>
+    <img src="images/galeria1.jpg" alt="Imagen 1 de la galería">
+    <img src="images/galeria2.jpg" alt="Imagen 2 de la galería">
+  </div>
+
+  <div class="detalle">
+    <h2>Sección 3: Contacto</h2>
+    <p>Si quieres comunicarte conmigo, este es mi correo:</p>
+    <p><a href="mailto:tuemail@correo.com">tuemail@correo.com</a></p>
+    <img src="images/contacto.jpg" alt="Imagen de contacto">
+  </div>
+</body>
+</html>
