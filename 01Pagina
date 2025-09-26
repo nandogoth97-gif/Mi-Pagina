@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles - Brandon Richard González Gutierrez 5°F</title>
+  <style>
+    /* ====== Estilos generales ====== */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 18px;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    .detalle {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    .detalle h2 {
+      margin-top: 0;
+      color: #0056b3;
+    }
+    .detalle img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- ====== Encabezado ====== -->
+  <header>
+    <h1>Detalles del Proyecto</h1>
+    <p>Autor: <strong>Brandon Richard González Gutierrez</strong> - 5°F</p>
+  </header>
+
+  <!-- ====== Contenido ====== -->
+  <div class="container">
+
+    <div class="detalle">
+      <h2>Sección 1: Presentación</h2>
+      <p>
+        Este proyecto es una página web de prueba donde organizo información y detalles de forma clara.
+        Aquí muestro mi trabajo con un diseño simple y ordenado.
+      </p>
+      <img src="images/presentacion.jpg" alt="Imagen de presentación">
+    </div>
+
+    <div class="detalle">
+      <h2>Sección 2: Galería</h2>
+      <p>
+        A continuación incluyo algunas imágenes relacionadas con mi proyecto que representan ideas y creatividad.
+      </p>
+      <img src="images/galeria1.jpg" alt="Imagen 1 de la galería">
+      <img src="images/galeria2.jpg" alt="Imagen 2 de la galería">
+    </div>
+
+    <div class="detalle">
+      <h2>Sección 3: Contacto</h2>
+      <p>
+        Si deseas comunicarte conmigo, puedes escribirme a este correo:
+      </p>
+      <p><a href="mailto:tuemail@correo.com">tuemail@correo.com</a></p>
+      <img src="images/contacto.jpg" alt="Imagen de contacto">
+    </div>
+
+  </div>
+
+  <!-- ====== Pie de página ====== -->
+  <footer>
+    <p>© 2025 - Página creada por Brandon Richard González Gutierrez - 5°F</p>
+  </footer>
+</body>
+</html>
